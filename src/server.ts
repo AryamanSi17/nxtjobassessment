@@ -1,10 +1,5 @@
-import { serve } from '@hono/node-server';
-import app from './app'; // Import the Hono app
+import app from './app';
 
-// Start the server on port 3000
-serve({
+export default {
   fetch: app.fetch,
-  port: 3000,
-});
-
-console.log('Server running on http://localhost:3000');
+};
