@@ -1,0 +1,9 @@
+{
+    "schema": "./src/db/schema.ts",   
+    "out": "./migrations",           
+    "dialect": "postgresql",                  
+     "dbCredentials": {
+      "url": "postgresql://testdb_owner:BSlNKMroI3g8@ep-noisy-resonance-a854hhwf.eastus2.azure.neon.tech/testdb?sslmode=require"
+    }
+  }
+  

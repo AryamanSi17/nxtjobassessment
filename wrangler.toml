@@ -1,0 +1,15 @@
+name = "nxtjobassessment" 
+compatibility_date = "2025-01-19"
+
+main = "./dist/server.js" 
+
+account_id = "354bd4f9200b361f34141147498e1bba"
+
+[vars]
+NEON_DB_URL = "postgresql://testdb_owner:BSlNKMroI3g8@ep-noisy-resonance-a854hhwf.eastus2.azure.neon.tech/testdb?sslmode=require"
+
+[build]
+command = "npm run build"
+
+[experimental]
+nodejs_compat = true
